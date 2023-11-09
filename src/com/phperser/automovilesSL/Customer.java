@@ -1,11 +1,15 @@
 package com.phperser.automovilesSL;
 
+import java.util.ArrayList;
+
 public class Customer {
 
     private String dni;
     private String name;
     private String surname;
     private String adress;
+
+    private ArrayList<Sell> sells;
 
     public String getDni() {
         return dni;
@@ -37,5 +41,13 @@ public class Customer {
 
     public void setAdress(String adress) {
         this.adress = adress;
+    }
+
+    public ArrayList<Sell> getSells() {
+        return sells;
+    }
+
+    public void setSells(ArrayList<Sell> sells) {
+        this.sells = sells;
     }
 }

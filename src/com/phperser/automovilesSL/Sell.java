@@ -1,5 +1,7 @@
 package com.phperser.automovilesSL;
 
+import java.util.ArrayList;
+
 public class Sell {
 
     private String id;
@@ -7,7 +9,7 @@ public class Sell {
     private String payMetod;
     private String price;
     private Customer customer;
-    private Vehicle vehicle;
+    private ArrayList<Vehicle> vehicles;
 
     public String getId() {
         return id;
@@ -49,11 +51,11 @@ public class Sell {
         this.customer = customer;
     }
 
-    public Vehicle getVehicle() {
-        return vehicle;
+    public ArrayList<Vehicle> getVehicles() {
+        return vehicles;
     }
 
-    public void setVehicle(Vehicle vehicle) {
-        this.vehicle = vehicle;
+    public void setVehicles(ArrayList<Vehicle> vehicles) {
+        this.vehicles = vehicles;
     }
 }
