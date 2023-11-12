@@ -1,15 +1,20 @@
 ## Description de la tarea
 
-<!-- Descripción sobre lo que se pide en la tarea -->
+La empresa Automóviles SL nos ha pedido informatizar su negocio para aumentar su
+productividad y ser más competitivos. El proceso de trabajo se basa
+en el uso de fichas para gestionar la información relacionada con los vehículos y las ventas.
+
 
 ## ¿Cómo se ha implementado?
 
-<!-- Estructura de clases, patrones: MVVM, etc.  -->
+Se ha implementado mediante un registro de vehiculos y clientes. Esto
+se gestiona mediante las ventas
+
 
 ## Keywords
 
-<!-- Palabras relacionadas con los conceptos vistos -->
+Java class, private, public, String, get, set, void.
 
 ## Screenshots or Video
 
-<!-- Captura de pantalla de la consola -->
+![img.png](img.png)
