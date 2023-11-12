@@ -1,4 +1,8 @@
-package com.phperser.automovilesSL;
+package com.phperser.automovilesSL.presentation;
+
+import com.phperser.automovilesSL.Customer;
+import com.phperser.automovilesSL.Sell;
+import com.phperser.automovilesSL.Vehicle;
 
 import java.util.ArrayList;
 
