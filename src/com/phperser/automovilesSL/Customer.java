@@ -9,8 +9,6 @@ public class Customer {
     private String surname;
     private String adress;
 
-    private ArrayList<Sell> sells;
-
     public String getDni() {
         return dni;
     }
@@ -43,11 +41,4 @@ public class Customer {
         this.adress = adress;
     }
 
-    public ArrayList<Sell> getSells() {
-        return sells;
-    }
-
-    public void setSells(ArrayList<Sell> sells) {
-        this.sells = sells;
-    }
 }

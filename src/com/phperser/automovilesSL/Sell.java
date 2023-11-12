@@ -9,7 +9,7 @@ public class Sell {
     private String payMetod;
     private String price;
     private Customer customer;
-    private ArrayList<Vehicle> vehicles;
+    private Vehicle vehicle;
 
     public String getId() {
         return id;
@@ -51,11 +51,12 @@ public class Sell {
         this.customer = customer;
     }
 
-    public ArrayList<Vehicle> getVehicles() {
-        return vehicles;
+    public Vehicle getVehicle() {
+        return vehicle;
     }
 
-    public void setVehicles(ArrayList<Vehicle> vehicles) {
-        this.vehicles = vehicles;
+    public void setVehicle(Vehicle vehicle) {
+        this.vehicle = vehicle;
     }
+
 }

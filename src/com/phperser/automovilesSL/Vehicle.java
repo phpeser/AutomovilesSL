@@ -2,6 +2,7 @@ package com.phperser.automovilesSL;
 
 public class Vehicle {
 
+    private String id;
     private String licensePlate;
     private String brand;
     private String model;
@@ -9,6 +10,14 @@ public class Vehicle {
     private String fuel;
     private String engine;
     private String hp;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public String getLicensePlate() {
         return licensePlate;
